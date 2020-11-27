@@ -1,0 +1,34 @@
+ul li {
+	list-style-type: square;
+ }
+
+h1, h2, li {
+    font-family: sans;
+    padding: 10cm;
+}
+
+ul {
+    background-color: #fcf9f5;
+    padding: 16px 30px;
+}
+
+li {
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+li:hover {
+    transform: scale(1.01);
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+input, select {
+    padding: .5em 1em;
+    border-radius: 8px;
+}
